@@ -7,3 +7,5 @@ for i in range(qte):
     else:
         print("nao encaixa")
 
+        
+
