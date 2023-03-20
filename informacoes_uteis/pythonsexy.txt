@@ -1,0 +1,75 @@
+nome_x =str(input("Como é seu nome: "))
+idade_x= int(input("Qual é a sua idade?: "))
+mes = int(input("Digite seu mês de nascimento em numérico: "))
+months_dict= {1: "Aquário", 2:"Peixes", 3:"Aries", 4:"Touro", 5:"Gemêos", 6:"Libra", 7:"Câncer", 8:"Leão", 9:"Virgem", 10:"Libra", 11:"Sagitário", 12:"Capricórnio"}
+print(nome_x, ", o seu signo é:", months_dict[month])
+
+numero_peso =float(input("Digite o seu peso em Kg: "))
+numero_altura=float(input("Digite a sua ALTURA em metros: "))
+numero_imc =float(numero_peso / numero_altura**2)
+print("o seu IMC é: %.2f" % numero_imc)
+
+if numero_imc <16:
+    print("Você tem magreza grave")
+
+elif numero_imc <17:
+    print("Você tem magreza moderada")
+
+elif numero_imc <18.5:
+    print("Você tem magreza leve")
+
+elif numero_imc <25:
+    print("Você é saúdavel")
+
+elif numero_imc <30:
+    print("Você está com sobrepeso")
+
+elif numero_imc <35:
+    print("Voc~e está com obesidade grau I")
+
+elif numero_imc <40:
+    print("Voc~e está com obsesidade grau II")
+
+
+elif numero_imc >40:
+    print("Você está com obsesidade grau III(mórbida)")
+    
+else:
+    print("inválido")nome_x =str(input("Como é seu nome: "))
+idade_x= int(input("Qual é a sua idade?: "))
+mes = int(input("Digite seu mês de nascimento em numérico: "))
+months_dict= {1: "Aquário", 2:"Peixes", 3:"Aries", 4:"Touro", 5:"Gemêos", 6:"Libra", 7:"Câncer", 8:"Leão", 9:"Virgem", 10:"Libra", 11:"Sagitário", 12:"Capricórnio"}
+print(nome_x, ", o seu signo é:", months_dict[month])
+
+numero_peso =float(input("Digite o seu peso em Kg: "))
+numero_altura=float(input("Digite a sua ALTURA em metros: "))
+numero_imc =float(numero_peso / numero_altura**2)
+print("o seu IMC é: %.2f" % numero_imc)
+
+if numero_imc <16:
+    print("Você tem magreza grave")
+
+elif numero_imc <17:
+    print("Você tem magreza moderada")
+
+elif numero_imc <18.5:
+    print("Você tem magreza leve")
+
+elif numero_imc <25:
+    print("Você é saúdavel")
+
+elif numero_imc <30:
+    print("Você está com sobrepeso")
+
+elif numero_imc <35:
+    print("Voc~e está com obesidade grau I")
+
+elif numero_imc <40:
+    print("Voc~e está com obsesidade grau II")
+
+
+elif numero_imc >40:
+    print("Você está com obsesidade grau III(mórbida)")
+    
+else:
+    print("inválido")
